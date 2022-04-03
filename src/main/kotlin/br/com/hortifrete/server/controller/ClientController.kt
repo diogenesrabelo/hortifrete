@@ -56,4 +56,12 @@ class ClientController {
         }
     }
 
+    @PutMapping("/{id}")
+    fun activatedClient(@PathVariable("id") id: String): ResponseEntity<Any> {
+        return try {
+            ResponseEntity("Disable Client", HttpStatus.OK)
+        } catch (ex: Exception) {
+            ResponseEntity("Error", HttpStatus.NOT_FOUND)
+        }
+    }
 }
