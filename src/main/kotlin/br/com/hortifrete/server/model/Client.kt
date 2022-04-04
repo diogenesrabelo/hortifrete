@@ -17,19 +17,19 @@ data class Client(
     val endereco: Endereco,
 
     @JsonProperty("isActivated")
-    val activated: Boolean = true,
+    var activated: Boolean = true,
 
     val createdAt: LocalDateTime = LocalDateTime.now(),
 
-    val updatedAt: LocalDateTime = LocalDateTime.now()
+    var updatedAt: LocalDateTime = LocalDateTime.now()
 )
 
 data class Endereco(
-    val cep: String,
-    val rua: String,
-    val numero: Int,
-    val complemento: String?,
-    val bairro: String,
-    val cidade: String,
-    val estado: String
+    var cep: String,
+    var rua: String,
+    var numero: Int,
+    var complemento: String?,
+    var bairro: String,
+    var cidade: String,
+    var estado: String
 )
