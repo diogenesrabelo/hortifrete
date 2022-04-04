@@ -18,7 +18,7 @@ data class Product(
 
     var updatedAt: LocalDateTime = LocalDateTime.now(),
 
-    val historico: List<Historico>?
+    var historico: MutableList<Historico>?
 )
 
 data class Historico(
