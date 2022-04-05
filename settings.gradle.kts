@@ -1,1 +1,2 @@
-rootProject.name = "server"
+rootProject.name = "hortifrete"
+include("lib")
