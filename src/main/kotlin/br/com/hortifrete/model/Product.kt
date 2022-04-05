@@ -1,4 +1,4 @@
-package br.com.hortifrete.server.model
+package br.com.hortifrete.model
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document

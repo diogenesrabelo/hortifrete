@@ -1,4 +1,4 @@
-package br.com.hortifrete.server.configuration
+package br.com.hortifrete.configuration
 
 import java.util.*
 

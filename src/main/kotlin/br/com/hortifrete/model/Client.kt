@@ -1,4 +1,4 @@
-package br.com.hortifrete.server.model
+package br.com.hortifrete.model
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import org.springframework.data.annotation.Id

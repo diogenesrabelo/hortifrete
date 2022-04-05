@@ -1,6 +1,6 @@
-package br.com.hortifrete.server.repository
+package br.com.hortifrete.repository
 
-import br.com.hortifrete.server.model.Client
+import br.com.hortifrete.model.Client
 import org.springframework.data.mongodb.repository.MongoRepository
 import org.springframework.stereotype.Repository
 

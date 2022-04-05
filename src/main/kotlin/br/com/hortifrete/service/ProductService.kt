@@ -1,9 +1,9 @@
-package br.com.hortifrete.server.service
+package br.com.hortifrete.service
 
-import br.com.hortifrete.server.configuration.unwrap
-import br.com.hortifrete.server.model.Historico
-import br.com.hortifrete.server.model.Product
-import br.com.hortifrete.server.repository.ProductRepository
+import br.com.hortifrete.configuration.unwrap
+import br.com.hortifrete.model.Historico
+import br.com.hortifrete.model.Product
+import br.com.hortifrete.repository.ProductRepository
 import org.springframework.stereotype.Service
 import java.time.LocalDateTime
 

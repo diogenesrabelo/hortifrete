@@ -1,8 +1,8 @@
-package br.com.hortifrete.server.service
+package br.com.hortifrete.service
 
-import br.com.hortifrete.server.configuration.unwrap
-import br.com.hortifrete.server.model.Client
-import br.com.hortifrete.server.repository.ClientRepository
+import br.com.hortifrete.configuration.unwrap
+import br.com.hortifrete.model.Client
+import br.com.hortifrete.repository.ClientRepository
 import org.springframework.stereotype.Service
 
 @Service

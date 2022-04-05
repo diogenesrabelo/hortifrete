@@ -1,7 +1,7 @@
-package br.com.hortifrete.server.controller
+package br.com.hortifrete.controller
 
-import br.com.hortifrete.server.model.Client
-import br.com.hortifrete.server.service.ClientService
+import br.com.hortifrete.model.Client
+import br.com.hortifrete.service.ClientService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
