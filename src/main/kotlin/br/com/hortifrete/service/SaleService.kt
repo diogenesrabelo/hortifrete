@@ -34,7 +34,7 @@ class SaleService(
         }
     }
 
-    fun deleteSale(sale: Sale) {
+    fun deleteSale(id: String,  sale: Sale) {
         return try {
             saleRepository.delete(sale)
         } catch (ex: Exception) {
